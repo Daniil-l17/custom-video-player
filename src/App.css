@@ -1,0 +1,44 @@
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.prod {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.prod:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+
+.ds{
+  bottom: 55px;
+  opacity: 0;
+  background: #151515c2;
+  padding: 15px;
+  height: 125px;
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  transition: all 0.3s ease-in;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsas:hover{
+  .ds{
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+}
